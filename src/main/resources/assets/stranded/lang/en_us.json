@@ -1,0 +1,8 @@
+{
+  "generator.stranded.stranded": "Stranded",
+  "config.stranded.title": "Stranded Config",
+  "config.stranded.island_size": "Island Size",
+  "config.stranded.island_size_value": "%s00 block radius",
+  "config.stranded.compatible_mode": "Compatible Mode",
+  "config.stranded.compatible_mode.tooltip": "Enable if using Terralith, WWOO, or Tectonic"
+}

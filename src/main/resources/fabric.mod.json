@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "stranded",
+	"version": "${version}",
+	"name": "Stranded",
+	"description": "Survive on an island surrounded by an infinite ocean!",
+	"authors": [
+		"Apollo"
+	],
+	"license": "ARR",
+	"icon": "assets/stranded/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.worldgen.stranded.Stranded"
+		]
+	},
+	"mixins": [
+		"stranded.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.19",
+		"minecraft": "~1.19.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
