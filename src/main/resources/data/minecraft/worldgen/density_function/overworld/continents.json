@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:range_choice",
+  "input": {
+    "type": "stranded:continents",
+    "ignore_compatible_mode_setting": false
+  },
+  "min_inclusive": -1,
+  "max_exclusive": 1,
+  "when_in_range": "stranded:overworld/continents",
+  "when_out_of_range": {
+    "type": "minecraft:flat_cache",
+    "argument": {
+      "type": "minecraft:shifted_noise",
+      "noise": "minecraft:continentalness",
+      "xz_scale": 0.25,
+      "y_scale": 0,
+      "shift_x": "minecraft:shift_x",
+      "shift_y": 0,
+      "shift_z": "minecraft:shift_z"
+    }
+  }
+}
